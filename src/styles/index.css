@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+
+@import "tailwindcss";
+@import "./fonts.css";
+
+:root {
+  --color-neutral-900: #02012c;
+  --color-neutral-800: #262540;
+  --color-neutral-700: #302f4a;
+  --color-neutral-600: #3c3b5e;
+  --color-neutral-300: #acacb7;
+  --color-neutral-200: #d4d3d9;
+  --color-neutral-0: #ffffff;
+  --color-orange-500: #ff820a;
+  --color-blue-500: #4658d9;
+  --color-blue-700: #2b1b9c;
+}
+
+@theme {
+  --spacing-0: 0px;
+  --spacing-025: 2px;
+  --spacing-050: 4px;
+  --spacing-075: 6px;
+  --spacing-100: 8px;
+  --spacing-125: 10px;
+  --spacing-150: 12px;
+  --spacing-200: 16px;
+  --spacing-250: 20px;
+  --spacing-300: 24px;
+  --spacing-400: 32px;
+  --spacing-500: 40px;
+  --spacing-600: 48px;
+  --spacing-800: 64px;
+  --spacing-1000: 80px;
+  --spacing-1200: 96px;
+  --spacing-1400: 112px;
+  --spacing-1600: 128px;
+  --spacing-1800: 140px;
+
+  --radius-0: 0px;
+  --radius-4: 4px;
+  --radius-8: 8px;
+  --radius-12: 12px;
+  --radius-16: 16px;
+  --radius-20: 20px;
+  --radius-24: 24px;
+  --radius-full: 9999px;
+
+  --color-neutral-9: var(--color-neutral-900);
+  --color-neutral-8: var(--color-neutral-800);
+  --color-neutral-7: var(--color-neutral-700);
+  --color-neutral-6: var(--color-neutral-600);
+  --color-neutral-3: var(--color-neutral-300);
+  --color-neutral-2: var(--color-neutral-200);
+  --color-neutral-0: var(--color-neutral-0);
+  --color-orange-5: var(--color-orange-500);
+  --color-blue-5: var(--color-blue-500);
+  --color-blue-7: var(--color-blue-700);
+}
+
+@utility flex-center {
+  @apply flex items-center justify-center text-center;
+}
