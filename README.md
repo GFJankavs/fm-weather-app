@@ -38,7 +38,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [GitLab](https://gitlab.gfjankavs.lv/root/fm-weather-app)
-- Live Site URL: [Website](https://your-live-site-url.com)
+- Live Site URL: [Website](https://wbax9z9zl23omk98a1tcuukf.gfjankavs.lv)
 
 ## My process
 
